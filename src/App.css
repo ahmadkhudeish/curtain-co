@@ -1,0 +1,25 @@
+html,
+body {
+  background-color: #f7f7f7 !important;
+}
+.App-logo {
+  max-width: 299px;
+}
+p {
+  align-content: center;
+  background-color: #f7f7f7;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 6em;
+  padding-left: 5px;
+}
+p > span {
+  opacity: 0.4;
+  text-align: center;
+}
+h3 {
+  text-decoration: underline;
+  font-weight: bold;
+}

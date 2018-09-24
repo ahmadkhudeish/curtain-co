@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../assets/logo@2x.png";
 import "../App.css";
-import CurtainsTable from "../comoponents/Table/CurtainsTable";
+import CurtainsTable from "../components/Table/CurtainsTable";
 import {
   Dropdown,
   Input,
@@ -228,10 +228,6 @@ class HomePage extends React.Component {
 
   render() {
     const { suburbs, materials, colours, isLoading, error } = this.state;
-
-    if (error) {
-      return <p>{error.message}</p>;
-    }
 
     if (isLoading) {
       return <p>Loading ...</p>;

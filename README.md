@@ -1,4 +1,5 @@
-#Curtain Co example 
+# Curtain Co example 
+
 This is a basic page which communicates with the server through a RESTful api.
 The page keeps track of one order at a time. When the page is refereshed, the page will be repopulated with the information from the last post to the server, unless new content has been added/edited then it will override the existing order.
 
